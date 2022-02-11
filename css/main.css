@@ -16,6 +16,7 @@ body {
     font-size: 20px;
     background-color: #1f1f1f;
     color: #999;
+    scroll-behavior: smooth;
 }
 main {
     width: 59%;
@@ -35,6 +36,10 @@ main iframe {
 
 .inline {
     display: inline-block;
+}
+
+#title {
+    scroll-behavior: smooth;
 }
 
 #tunesTitle {
@@ -58,4 +63,44 @@ main table td, main table, main table th {
 .caption {
     font-size: 0.8rem;
     font-family: 'Oswald', sans-serif;
+}
+
+#author2 {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    main {
+        width: 100%;
+    }
+    aside {
+        display: none;
+    }
+    #author2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    #author2 div {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    }
+    #author2Heart {
+        padding: 0 1%;
+    }
+    
+    #author2 h3 {
+        margin: 0 auto;
+    
+    }
+    main iframe {
+        width: 100%;
+    }
 }

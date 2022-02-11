@@ -1,1 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
+
+#banner {
+    width: 100%;
+    margin: 0;
+    padding: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+    height: 100vh;
+    background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(./../img/sing2banner.webp),
+        rgb(96, 96, 96);
+}
+
+#banner h1 {
+    color: white;
+    font-size: 5rem;
+    margin: 5vh auto;
+    scroll-behavior: smooth;
+}
+
+#banner a button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 2vh 2vw 2vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+}
