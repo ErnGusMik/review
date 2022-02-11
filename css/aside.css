@@ -2,11 +2,11 @@
 
 aside {
     width: 15%;
-    margin: 0 0.5%;
+    margin: 10vh 0.5%;
     float: right;
     position: sticky;
     position: -webkit-sticky;
-    top: 10px;
+    top: 50px;
 }
 aside p {
     font-size: 0.8rem;

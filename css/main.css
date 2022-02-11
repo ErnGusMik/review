@@ -103,4 +103,7 @@ main table td, main table, main table th {
     main iframe {
         width: 100%;
     }
+    footer {
+        width: 100%;
+    }
 }
