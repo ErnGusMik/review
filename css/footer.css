@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
+
+body a {
+    color: #999;
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    width: 70%;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+#toTop {
+    font-size: 1.2rem;
+    display: inline;
+    margin: 0%;
+}
+
+footer i {
+    margin: 0 1%;
+}
